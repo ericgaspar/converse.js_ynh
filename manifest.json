@@ -1,12 +1,12 @@
 {
-    "name": "Converse.js",
-    "id": "conversejs",
+    "name": "Converse",
+    "id": "converse",
     "packaging_format": 1,
     "description": {
         "en": "Web-based XMPP/Jabber chat client written in JavaScript ",
         "fr": "Client de chat XMPP/Jabber basé sur le Web écrit en JavaScript "
     },
-     "version": "1.0~ynh4",
+     "version": "7.0.4~ynh1",
     "url": "http://conversejs.org/",
     "license": "MPL-2.0",
     "maintainer": {
@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for converse.js",
-                    "fr": "Choisissez un nom de domaine pour Cubiks converse.js"
+                    "en": "Choose a domain for Converse",
+                    "fr": "Choisissez un nom de domaine pour Converse"
                 },
                 "example": "domain.org"
             },
@@ -35,22 +35,22 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Cubiks converse.js",
-                    "fr": "Choisissez un chemin pour converse.js"
+                    "en": "Choose a path for Converse",
+                    "fr": "Choisissez un chemin pour Converse"
                 },
-                "example": "/conversejs",
-                "default": "/conversejs"
+                "example": "/converse",
+                "default": "/converse"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
                 "ask": {
-                    "en": "Is it a public game?",
-                    "fr": "Est-ce un jeu public ?"
+                    "en": "Is it a public application?",
+                    "fr": "Est-ce une application publique ?"
                 },
                 "help": {
-                        "en": "If enabled, converse.js will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
-                        "fr": "Si cette case est cochée, converse.js sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+                        "en": "If enabled, Converse will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
+                        "fr": "Si cette case est cochée, Converse sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }
