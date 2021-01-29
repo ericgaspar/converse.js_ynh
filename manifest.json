@@ -1,14 +1,14 @@
 {
-    "name": "Cubiks 2048",
-    "id": "cubiks-2048",
+    "name": "Converse.js",
+    "id": "conversejs",
     "packaging_format": 1,
     "description": {
-        "en": "2048 game clone in 3D",
-        "fr": "Clone du jeu 2048 en 3D"
+        "en": "Web-based XMPP/Jabber chat client written in JavaScript ",
+        "fr": "Client de chat XMPP/Jabber basé sur le Web écrit en JavaScript "
     },
      "version": "1.0~ynh4",
-    "url": "https://github.com/Kshitij-Banerjee/Cubiks-2048/",
-    "license": "MIT",
+    "url": "http://conversejs.org/",
+    "license": "MPL-2.0",
     "maintainer": {
         "name": "eric_G",
         "email": ""
@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for Cubiks 2048",
-                    "fr": "Choisissez un nom de domaine pour Cubiks 2048"
+                    "en": "Choose a domain for converse.js",
+                    "fr": "Choisissez un nom de domaine pour Cubiks converse.js"
                 },
                 "example": "domain.org"
             },
@@ -35,11 +35,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Cubiks 2048",
-                    "fr": "Choisissez un chemin pour Cubiks 2048"
+                    "en": "Choose a path for Cubiks converse.js",
+                    "fr": "Choisissez un chemin pour converse.js"
                 },
-                "example": "/cubiks-2048",
-                "default": "/cubiks-2048"
+                "example": "/conversejs",
+                "default": "/conversejs"
             },
             {
                 "name": "is_public",
@@ -49,8 +49,8 @@
                     "fr": "Est-ce un jeu public ?"
                 },
                 "help": {
-                        "en": "If enabled, Cubiks 2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
-                        "fr": "Si cette case est cochée, Cubiks 2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+                        "en": "If enabled, converse.js will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
+                        "fr": "Si cette case est cochée, converse.js sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }

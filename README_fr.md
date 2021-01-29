@@ -1,7 +1,7 @@
-# Cubiks 2048 pour YunoHost
+# converse.js pour YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
-[![Installer Cubiks 2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cubiks-2048)
+[![Integration level](https://dash.yunohost.org/integration/converse.js.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![](https://ci-apps.yunohost.org/ci/badges/converse.js.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/converse.js.maintain.svg)  
+[![Installer Cubiks 2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=converse.js)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -9,16 +9,15 @@
 If you don’t have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Vue d’ensemble
-
-Clone en 3D du jeu 2048.
+Un client de chat XMPP gratuit et open-source dans votre navigateur .
 
 ## Captures d’écran
 
-![](Screenshot-Cubiks-2048.jpg)
+![](https://camo.githubusercontent.com/17eaef5bde9136cccc9052bebf4c63f72e93fd02dadf277c05558e0e781308f4/68747470733a2f2f6f706b6f64652e636f6d2f696d672f436f6e76657273652d656d6265646465642e706e67)
 
 ## Démo
 
-* [Démo officielle](https://kshitij-banerjee.github.io/Cubiks-2048/)
+* [Démo officielle](https://inverse.chat/)
 
 #### Architectures supportées
 
@@ -27,7 +26,8 @@ Clone en 3D du jeu 2048.
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/Cubiks-2048_ynh/issues
+ * Signaler un bug : https://github.com/YunoHost-Apps/converse.js_ynh/issues
+ * Site de l'application : http://conversejs.org/
  * Dépôt de l’application principale : https://github.com/Kshitij-Banerjee/Cubiks-2048
  * Site web YunoHost : https://yunohost.org/
 
@@ -35,11 +35,11 @@ Clone en 3D du jeu 2048.
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/converse.js_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/converse.js_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade cubiks-2048 -u https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing --debug
+sudo yunohost app upgrade converse.js -u https://github.com/YunoHost-Apps/converse.js_ynh/tree/testing --debug
 ```
