@@ -58,7 +58,9 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 
 # Download, check integrity, uncompress and patch the source from app.src
 mkdir -p $final_path && cp -a ../sources/* $final_path
-ynh_replace_string --match_string="__DOMAIN____PATH__" --replace_string="$domain$path_url" --target_file="$final_path/index.html"
+
+ynh_replace_string --match_string="__PATH__" --replace_string="$path_url" --target_file="$final_path/index.html"
+ynh_replace_string --match_string="__DOMAIN__" --replace_string="$domain" --target_file="$final_path/index.html"
 
 #=================================================
 # NGINX CONFIGURATION
@@ -75,7 +77,7 @@ ynh_add_nginx_config
 #=================================================
 
 # Set permissions to app files
-chown -R root: $final_path
+chown -R www-data:www-data $final_path
 
 #=================================================
 # SETUP SSOWAT
